@@ -137,7 +137,6 @@ Route::get('mysql-test', function() {
 
 });
 
-
 Route::get('/debug', function() {
 
     echo '<pre>';
@@ -182,4 +181,5 @@ Route::get('/debug', function() {
     echo '</pre>';
 
 });
+
 

@@ -8,7 +8,7 @@ return array(
             'driver'    => 'mysql',
             'host'      => 'tunnel.pagodabox.com:3306',
             'database'  => 'project',
-            'username'  => 'klyoko',
+            'username'  => 'kiyoko',
             'password'  => '3WFPMKdl',
         ),
 
