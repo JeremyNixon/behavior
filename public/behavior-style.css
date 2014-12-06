@@ -1,0 +1,139 @@
+.label{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    color: #400000;
+
+}
+body {
+
+    font-family: 'Merriweather', serif;
+    margin-left: 0px;
+    
+}
+
+#container
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    width: 70%;
+}
+
+#header {
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+}
+
+#footer {
+    background:#f0f0f0;
+    bottom: 0px;
+}
+
+#navlist li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+
+
+ul li {
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 14px; 
+}
+
+/* unvisited link */
+a:link {
+    color: #440000 !important;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #400000 !important;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #f00000;
+    text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+    text-decoration: none;
+
+}
+
+/* Home Page */
+
+.home-opening{
+    margin-top: 50px;
+}
+.home-content-container{
+    width: 100%;
+    margin-top: 80px;
+}
+.home-left{
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    width: 32%;
+    margin: 5px;
+}
+.home-content-text{
+    text-align: left;
+}
+.home-left-title{
+    font-size: 24px;
+
+}
+
+#post {
+  border-bottom: 3px solid #440000;
+}
+
+#comments {
+    text-align: left;
+}
+
+#post-link {
+    font-size: 25px;
+    text-align: left;
+}
+
+#create-post {
+    font-size: 18px;
+    border-bottom: 3px solid #440000;
+}
+
+.title-field {
+    width: 400px;
+    height: 30px;
+}
+
+.content-field {
+    width: 70%;
+    height: 250px;
+}
+
+.content-field-comment {
+    width: 70%;
+    height: 100px;
+}
