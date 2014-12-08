@@ -1,0 +1,9 @@
+Documentation
+This web app is live at http://understandingrealbehavior.com/. The public github repository for my project is at https://github.com/JeremyNixon/behavior. To run the app on your local machine you’ll want to download a PHP dependency manager called composer. You can do this on a Mac by navigating to your  bin directory using cd /usr/local/bin and running curl -sS https://getcomposer.org/installer | php.
+
+You can make sure it’s installed by  typing ‘composer.phar’. Once you’ve successfully downloaded composer you should clone the repository and cd into it. Inside the directory run ‘composer.phar install’ to build the vendors directory, which was not version controlled with Git. Also, give write access to the storage directory using chmod -R 777 app/storage.
+You should be able to run the app locally now by calling ‘php artisan serve’ in the terminal while inside of the project directory.
+
+In order to get the local database permissions working properly you’ll need to download MAMP.  Once MAMP is installed add a file (currently in .gitignore) called named environment.php to the root of the project. When you create it, fill the file with <?php return ‘local’; ?> to ensure that you’re workign in a local environment. Then through phpmyadmin (http://localhost:<INSERT YOUR PORT HERE>/phpmyadmin) create a database called project. You can create the tables by running ‘php artisan migrate’ in command line from the project directory.
+
+I wanted to write a python script that could preform some data manipulation, but ran into issues with server errors when running it from a controller and with trying to integrate another framework (flask). There is a python file in the root directory that can be run by installing flask with 'pip install Flask' (assuming you already have pip installed) and then calling 'python data.py' from command line to locally host the file.

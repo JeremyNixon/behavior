@@ -20,6 +20,11 @@ Route::get('/', function()
 	return View::make('behavior/landing');
 });
 
+Route::get('/python.py', function()
+{
+    return View::make('behavior/python');
+});
+
 Route::get('/behavior', function(){
 	return View::make('/behavior/landing');
 });

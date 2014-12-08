@@ -3,7 +3,7 @@
 @section('body')
 
 <h1>Sign up</h1>
-
+<!-- Signup form for the site -->
 {{ Form::open(array('url' => '/behavior/signup')) }}
 
     {{ Form::label('Email') }} 

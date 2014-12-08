@@ -3,6 +3,7 @@
 @section('body')
 
 <h1> Reading List </h1>
+<p>Shane Parrish has written this wonderful list <a href="http://www.farnamstreetblog.com/2010/04/behavioral-economics-reading-list">at Farnam Street</a></p>
 <p><a href="http://amzn.to/f00opN">Judgement in Managerial Decision Making (awesome)</a><br />
 When faced with a decision, we all believe we&rsquo;re weighing the facts objectively and making rational, thoughtful decisions. In fact, science tells us that in situations requiring careful judgment, every individual is influenced by his or her own biases to some extent. Drawing on the very latest behavioral decision research this book examines judgment in a variety of managerial contexts and provides important insights that can help you make better managerial decisions.</p>
 <p><a href="http://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996?ie=UTF8&amp;tag=farnamstreet-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969">Influence: The Psychology of Persuasion</a><br />Should be required Reading.</p>
